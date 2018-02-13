@@ -1,0 +1,6 @@
+Questão 04.
+a) setProducaoDeLeite é um metodo especifico da classe filha, que no exemplo foi referenciada com uma 
+variável do tipo classe mãe.
+Solução: uso de casts.
+
+b) Não é permitido usar uma referencia de subclasse para um objeto da superclasse.

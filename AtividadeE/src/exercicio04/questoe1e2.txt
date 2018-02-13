@@ -1,0 +1,6 @@
+Questão 01.
+Ocorrerá um erro devido ao uso do operador "<=" ao invés do "<" no loop for.
+
+Questão 02.
+Erro de execução, pos a referencia usada é sim uma referencia de objeto Conta, mas está
+referenciando um valor null, o que gera o erro: NullPointerException.

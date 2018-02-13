@@ -1,0 +1,24 @@
+Quetão 01.
+a) F
+b) V
+c) F
+d) F
+e) V
+f) F
+g) V
+h) V
+i) V
+j) V
+
+Questão 05.
+Será impresso a*b.
+
+Questão 07.
+Todas imprimirão o msm saldo (90), pois c1 passa a fazer referencia a c2 e c3 a c1 que se refere a  c2.
+
+Questão 08.
+Erro de execução, pos a referencia usada é sim uma referencia de objeto Conta, mas está
+referenciando um valor null, o que gera o erro: NullPointerException.
+
+Questão 09.
+Não. Porque o objeto foi sim inicializado.

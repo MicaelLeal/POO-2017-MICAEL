@@ -1,0 +1,3 @@
+Questao 1.
+O método main é statico, logo só pode acessar atributos ou métodos tabém
+staticos. O que não é o caso do atributo x.

@@ -1,0 +1,12 @@
+Questao 05.
+Tornado a classe contaCorrente também abstrata.
+
+Questão 06.
+O método abstrato na clsse Conta obriga as classes filhas a implementarem o mesmo método e também 
+permite a chamada direta do mesmo por uma referencia de conta.
+
+Questão 07.
+Pode sim.
+
+Desafios.
+Porque new Conta[10] cria um array de referencias do tipo conta, e não uma instancia de Conta.

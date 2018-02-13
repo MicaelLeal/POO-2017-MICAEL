@@ -1,0 +1,28 @@
+Questão 01.
+Não executa por não conter o método "main" na classe.
+
+Questão 02.
+Será executado os comando no "else" do método3(), pois os metodos 1 e 2 incrementam o atributo usado
+antes do retorno.
+
+Questão 03.
+j = 0 e i = 1.
+
+Questão 04.
+Não. O atributo i é inicializado automaticamente com valor 0.
+
+Questão 05.
+Não foi passado o parametro pedido no contrutor da classe.
+Solução: Passar o argumeto pedido. Ou usar sobrecarga, fazendo também um contrutor vazio.
+
+Questão 06.
+public void addLike() {
+		this.countLikes++;
+	}
+	
+Questão 07.
+O método dado apenas incrementa em 1 o argumento passado.
+Solução:
+void acumula(int quantidade) {
+	this.quantidade += quantidade;
+}

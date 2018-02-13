@@ -1,0 +1,4 @@
+Orientação a Objeto.
+
+A Programação Orientada a Objeto trouxe algumas vantagens comparando-se à estruturada. Um exemplo bem simples: para um cadastro de alunos, em estruturada, cria-se uma variavel para cada "característica" de um aluno(Nome, matricula, dataNascimento, serie, curso..) e salva-se em um array por exemplo. Com O.O. essas "características" se tornam atributos em uma classe que, por meio de uma instaciação, cria-se um objeto aluno.
+A classe simplesmente guarda os atributos e metodos de um objeto - é como a receita de um bolo, não é um bolo, mas a partir dela que se fazem os bolos. E o objeto seria o produto dessa calsse - o bolo - que, na programação, é uma abstração de um objeto real, com os valores dos atributos, o que definem seu estado. Para se referir a um objeto usa-se uma variável na instanciação que guarda o endereço de memória do mesmo.

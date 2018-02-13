@@ -1,0 +1,33 @@
+Questão 11.
+V
+V
+V
+V
+V
+
+Questão 12.
+"metodo 1, classe B"
+
+Questão 13.
+Não compila, pois metodo2 é específico da classe B.
+
+Questão 14.
+"metodo 1, classe A"
+
+Questão 15.
+public class A {
+    ...
+	public int getAtributo1() {
+		return this.atributo1;
+	}
+	
+	public void setAtributo1(int valor) {
+		this.atributo1 = valor;
+	}
+}
+
+Questão 16.
+A assinatura de ambos os métodos são iguais.
+
+Questao 17.
+A assinatura de ambos os métodos são iguais.

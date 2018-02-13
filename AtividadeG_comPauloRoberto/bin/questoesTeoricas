@@ -1,0 +1,11 @@
+Questão 01.
+Não. Pois classes abstratas sao apenas modelos para outras classes.
+
+Questão 02.
+É necessario a implementação do metodo abstrato na classe filha.
+
+Questão 03.
+Se os métodos não forem também abstratos, não ocorrerá nada.
+
+Questão 07.
+Não se está instanciando um objeto FiguraGeométrica, e sim apenas criando um vetor de referencias.

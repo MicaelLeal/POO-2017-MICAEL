@@ -1,0 +1,20 @@
+Questão 01.
+Não. A variavel é automaticamente inicializado com valor = 0.
+
+Questão 02.
+Ocorre um erro pois a classe Hotel não pede parametro algum.
+
+Questão 03.
+O valor de "this.a" continua 0, pois no construtor alterou-se apenas o valor da variavel passada como argumento.
+
+Questão 04.
+Mesmo problema da questão 3.
+Solucao: this.valo += valor;
+
+Questão 05.
+Não foi passado o parametro pedido no contrutor da classe Radio.
+Solução: obviamente, passar o argumeto pedido. Ou usar sobrecarga, fazendo também um contrutor vazio.
+
+Questão 06.
+a) 90 em ambos. Pois, apos a linha "c1 = c2;", c1 e c2 passam a fazer referencia a mesma conta.
+b) O objeto que era referenciado por c1 é perdido.

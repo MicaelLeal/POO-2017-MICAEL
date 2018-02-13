@@ -1,0 +1,39 @@
+Questao 01.
+Os objetos são uma analogia a elementos do mundo real, com algumas caracteristicas e comportamentos
+proprios. As classes são um modelo a partir do qual os objetos serão criados. Pode-se fazer analogia
+de uma classe à planta de uma casa por exemplo, enquanto o objeto seria casa contruida.
+
+Questao 02.
+Atributos são características e propriedades que os objetos possuem, enquanto os métodos são as ações dos
+mesmos. Por exemplo, um objeto conta teria como atributos: titular, saldo, numero, entre outros; e como 
+metodos: sacar, depositar, transferir, entre outros.
+
+Questão 03.
+Atributo: 						Sistema em que é importante: 			Sistema em que não é importante: 
+
+Peso								Academia de luta								Bancário
+
+Tipo de CNH						  Empresa de transporte						   Controle acadêmico
+
+Tipo Sanguíneo							Hospitalar							   Controle acadêmico
+
+Habilidade destra						Sei lá!!									Bancário
+
+Percentual de gordura				    Academia								Controle acadêmico
+
+Saldo em conta							Bancário								Controle acadêmico
+
+Etinia							Sistema de um vestibular							Bancário
+
+Questão 04.
+a) Seria sim.
+b) Seria não. Os arrays.
+
+Questão 05.
+aluno; professor; turma; curso; disciplina.
+
+Questão 06.
+CS:
+Boot - life, nome, municao; andar, agachar, morrer, matar.
+Arma - qtdMunicao, mira, silenciar; atirar, recarregar.
+mapa/cenario - tamanho, qtdBlocos; motraMapa.

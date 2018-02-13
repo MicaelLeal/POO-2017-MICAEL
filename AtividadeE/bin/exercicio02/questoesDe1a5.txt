@@ -1,0 +1,14 @@
+Questão 01.
+Comandos: javac Avaliacao.java e java Avaliacao, nessa ordem.
+
+Questão 02.
+Não compila. Método main sem os parenteses e sem parametos.
+
+Questão 03.
+Executa o comando de "else".
+
+Questão 04.
+Cara, as saídas são todas iguais. Mas somento o "case 1" do switch corresponde ao valor de "op".
+
+Questão 05.
+System.out.println("Soma: " + (a + b));
