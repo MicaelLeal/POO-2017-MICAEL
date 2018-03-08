@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="login_card_margin_horizontal">40dp</dimen>
+    <dimen name="login_padding_horizontal">8dp</dimen>
+    <dimen name="login_padding_vertical">40dp</dimen>
+</resources>

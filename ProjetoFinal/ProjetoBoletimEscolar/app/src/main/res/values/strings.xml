@@ -1,0 +1,85 @@
+<resources>
+    <!--Titulos de activities-->
+    <string name="app_name">Projeto Boletim Escolar</string>
+
+    <!--Formulário disciplina:-->
+    <string name="edit_nome_form_disciplina">Disciplina *</string>
+    <string name="edit_professor_form_disciplina">Professor *</string>
+    <string name="btn_concluir_form_disiplina">Concluir</string>
+
+    <!--Formulário anoação-->
+    <string name="edit_titulo_form_anotacao">Título *</string>
+    <string name="text_data_form_anotacao">Selecione a data *</string>
+    <string name="edit_conteudo_form_anotacao">Conteúdo.. (opicional)</string>
+
+    <!--MenuPopup ítens-->
+    <string name="str_editar">Editar</string>
+    <string name="str_deletar">Deletar</string>
+
+    <!--Layout login-->
+    <string name="text_login_titulo">Login</string>
+    <string name="edit_login_usuario_hint">Endereço de e-mail</string>
+    <string name="edit_login_senha_hint">Senha</string>
+    <string name="btn_login_entrar">Entrar</string>
+    <string name="text_login_no_account">Ainda não tem uma conta?</string>
+    <string name="text_login_cadastrar">Cadastre-se</string>
+
+    <!--Layout cadastro-->
+    <string name="edit_cadastrar_nome">Nome *</string>
+    <string name="edit_cadastrar_escola">Escola *</string>
+    <string name="text_cadastro_titulo">Cadastro</string>
+    <string name="edit_cadastrar_e_mail">e-mail *</string>
+    <string name="edit_cadastrar_senha">Crie uma senha *</string>
+    <string name="edit_cadastrar_confirmar_senha">Confirmar senha *</string>
+    <string name="btn_cadastro_cadastrar">Cadastrar</string>
+
+    <!--ActionBarDrawerToggle arguments-->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!--Ítens menu do DrawerLayout na main-->
+    <string name="title_menu_drawer_confiuracoes_conta">Confiurações da conta</string>
+    <string name="title_menu_drawer_editar_perfil">Editar perfil</string>
+    <string name="title_menu_drawer_alterar_email">Alterar e-mail</string>
+    <string name="title_menu_drawer_trocar_senha">Trocar senha</string>
+    <string name="title_menu_drawer_remover_conta">Remover conta</string>
+    <string name="title_menu_drawer_resetar_dados">Resetar dados</string>
+    <string name="title_menu_drawer_sair">Sair</string>
+
+    <!--Activity Disciplina-->
+    <string name="text_disciplina_professor">Professor(a):</string>
+    <string name="text_disciplina_m_de_media">M</string>
+    <string name="text_disciplina_p_de_pontos">P</string>
+    <string name="text_disciplina_n1">N1</string>
+    <string name="text_disciplina_n2">N2</string>
+    <string name="text_disciplina_r_de_recuperacao">R</string>
+    <string name="text_disciplina_abaixo_da_media_escolar">Abaixo da média escolar</string>
+    <string name="text_disciplina_abaixo_da_media_pessoal">Abaixo da sua média pessoal</string>
+    <string name="text_disciplina_partir_da_media_pessoal">A partir da sua média pessoal</string>
+    <string name="text_disciplina_situacao">Situacão:</string>
+    <string name="text_disciplina_recuperaco_final">Nota recuperação final *</string>
+
+    <!--Dialog alterar email-->
+    <string name="edit_alterar_email_senha">Senha</string>
+    <string name="edit_alterar_email_novo">Novo endereço de e-mail *</string>
+
+    <!--Dialog alterar senha-->
+    <string name="edit_alterar_senha_atual">Senha atual</string>
+    <string name="edit_alterar_senha_nova">Nova senha *</string>
+    <string name="edit_alterar_senha_confirmar">Confirmar senha *</string>
+
+    <!--Dialog editar perfil-->
+    <string name="edit_editar_perfil_escola">Escola *</string>
+    <string name="edit_editar_perfil_nome">Nome *</string>
+    <string name="edit_editar_perfil_media_escolar">Nota média escolar</string>
+    <string name="edit_editar_perfil_media_pessoal">Nota média pessoal</string>
+
+    <!--Anotações adapter-->
+    <string name="str_anotacoes_conteudo">Conteúdo:</string>
+    <string name="anotacao_dialog_titulo_deletar">Deletar</string>
+    <string name="anotacao_dialog_message_deletar">Deseja mesmo remover esta anotação da sua agenda?</string>
+    <string name="anotacao_dialog_positive">Sim</string>
+    <string name="anotacao_dialog_toast">Ítem removido</string>
+    <string name="anotacao_dialog_negative">Não</string>
+
+</resources>

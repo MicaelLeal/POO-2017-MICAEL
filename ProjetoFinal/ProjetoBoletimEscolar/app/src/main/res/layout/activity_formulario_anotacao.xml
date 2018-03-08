@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.micaelleal.projetoboletimescolar.FormularioAnotacaoActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp" >
+
+        <EditText
+            android:id="@+id/edit_add_anotacao_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textCapSentences"
+            android:maxLength="40"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/edit_titulo_form_anotacao"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:onClick="selecionarData"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="4dp">
+
+
+        <TextView
+            android:id="@+id/text_add_anotacao_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:gravity="start|center"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/text_data_form_anotacao"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_calendar"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit_add_anotacao_conteudo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="start"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@color/grey"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/edit_conteudo_form_anotacao"/>
+
+
+    <Button
+        android:onClick="concluir"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="@string/btn_concluir_form_disiplina"/>
+
+</LinearLayout>

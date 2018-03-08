@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.micaelleal.projetoboletimescolar.FormularioDisciplinaActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"    >
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_add_disciplina_nome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="4dp"
+            android:inputType="textCapWords"
+            android:maxLength="38"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/edit_nome_form_disciplina"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_add_disciplina_professor"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="4dp"
+            android:inputType="textCapWords"
+            android:maxLength="30"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/edit_professor_form_disciplina"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:onClick="concluir"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="@string/btn_concluir_form_disiplina"/>
+
+</LinearLayout>

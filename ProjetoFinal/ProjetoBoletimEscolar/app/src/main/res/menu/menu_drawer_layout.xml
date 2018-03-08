@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/title_menu_drawer_confiuracoes_conta">
+
+        <menu>
+
+            <item android:id="@+id/menu_drawer_editar_perfil"
+                android:icon="@mipmap/ic_account_edit"
+                android:title="@string/title_menu_drawer_editar_perfil"/>
+
+            <item android:id="@+id/menu_drawer_trocar_email"
+                android:icon="@mipmap/ic_email_arroba"
+                android:title="@string/title_menu_drawer_alterar_email"/>
+
+            <item android:id="@+id/menu_drawer_trocar_senha"
+                android:icon="@mipmap/ic_password_key"
+                android:title="@string/title_menu_drawer_trocar_senha"/>
+
+        </menu>
+
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/menu_drawer_remover_conta"
+            android:icon="@mipmap/ic_delete"
+            android:title="@string/title_menu_drawer_remover_conta"/>
+
+        <item android:id="@+id/menu_drawer_reset"
+            android:icon="@mipmap/ic_reset"
+            android:title="@string/title_menu_drawer_resetar_dados"/>
+
+        <item android:id="@+id/menu_drawer_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="@string/title_menu_drawer_sair"/>
+    </group>
+
+</menu>

@@ -1,0 +1,182 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3692228672538692599",
+      "lastPropertyId": "6:2928177493839337274",
+      "name": "Disciplina",
+      "properties": [
+        {
+          "id": "1:4716006004774291165",
+          "name": "id"
+        },
+        {
+          "id": "2:8961248473433441366",
+          "name": "nome"
+        },
+        {
+          "id": "3:500649336403180538",
+          "name": "professor"
+        },
+        {
+          "id": "5:6136603401538551112",
+          "indexId": "3:7015046722853573840",
+          "name": "usuarioDonoId"
+        },
+        {
+          "id": "6:2928177493839337274",
+          "name": "recuperacaoFinal"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:2952280192318207126",
+          "name": "notasAnoLetivo"
+        }
+      ]
+    },
+    {
+      "id": "2:5767052098244048041",
+      "lastPropertyId": "8:1738408858762826671",
+      "name": "Usuario",
+      "properties": [
+        {
+          "id": "1:6068345071728812715",
+          "name": "id"
+        },
+        {
+          "id": "3:8786792492769342139",
+          "name": "senha"
+        },
+        {
+          "id": "4:1011261066633185733",
+          "name": "email"
+        },
+        {
+          "id": "5:18273942480832888",
+          "name": "nome"
+        },
+        {
+          "id": "6:7567891884282127497",
+          "name": "escola"
+        },
+        {
+          "id": "7:3149522532542766129",
+          "name": "mediaEscolar"
+        },
+        {
+          "id": "8:1738408858762826671",
+          "name": "mediaPessoal"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:6268124853333671611",
+          "name": "notas"
+        }
+      ]
+    },
+    {
+      "id": "3:9029291011375081973",
+      "lastPropertyId": "6:3262092438145699691",
+      "name": "Anotacao",
+      "properties": [
+        {
+          "id": "1:1608781536340449746",
+          "name": "id"
+        },
+        {
+          "id": "3:8308352900271129071",
+          "name": "data"
+        },
+        {
+          "id": "4:3068320289057048085",
+          "name": "conteudo"
+        },
+        {
+          "id": "5:8913304012248107746",
+          "indexId": "2:3904807529290832350",
+          "name": "usuarioDonoId"
+        },
+        {
+          "id": "6:3262092438145699691",
+          "name": "titulo"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:2494249271593646273",
+      "lastPropertyId": "15:6584966545875649825",
+      "name": "NotasBimestre",
+      "properties": [
+        {
+          "id": "1:4350436659949869465",
+          "name": "id"
+        },
+        {
+          "id": "2:8165292008275163863",
+          "name": "bimestreId"
+        },
+        {
+          "id": "11:2787230843321365189",
+          "name": "notaMensal"
+        },
+        {
+          "id": "12:4870345653094393011",
+          "name": "notaBimestral"
+        },
+        {
+          "id": "13:4218086768784531892",
+          "name": "recuperacao"
+        },
+        {
+          "id": "14:4180880250572125164",
+          "name": "pontos"
+        },
+        {
+          "id": "15:6584966545875649825",
+          "indexId": "4:4349968011340988020",
+          "name": "usuarioDonoId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:978151941670592879",
+  "lastIndexId": "4:4349968011340988020",
+  "lastRelationId": "2:6268124853333671611",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    978151941670592879
+  ],
+  "retiredIndexUids": [
+    3407370380531883239
+  ],
+  "retiredPropertyUids": [
+    7438503487194182088,
+    5256046734518057968,
+    6302181033986520871,
+    5254256750750886839,
+    6980405690634708624,
+    1211436984530695086,
+    5442684583090658497,
+    2562316142388238036,
+    7600184629483313740,
+    3235465124855554264,
+    3746238276147475805,
+    3616640604026161601,
+    3176130415254707059,
+    8617167249450809557,
+    3807329059908076079,
+    5559474483328431008,
+    8055838070125217100,
+    4917494101174943658
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
